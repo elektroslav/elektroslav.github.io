@@ -4,7 +4,7 @@ url: "https://elektroslav.github.io"
 baseurl: "https://elektroslav.github.io"
 repository: "elektroslav/elektroslav.github.io"
 
-theme: minimal-mistakes-jekyll
+theme: minima
 
 markdown: kramdown
 kramdown:
