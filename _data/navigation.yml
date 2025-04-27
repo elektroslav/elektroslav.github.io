@@ -1,0 +1,9 @@
+main:
+  - title: "Головна (UK)"
+    url: /uk/
+  - title: "Про мене (UK)"
+    url: /uk/about/
+  - title: "Home (EN)"
+    url: /en/
+  - title: "About (EN)"
+    url: /en/about/
