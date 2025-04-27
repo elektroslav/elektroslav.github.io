@@ -1,34 +1,24 @@
 title: "Elektroslav"
-description: "Нотатки з математики, програмування та скетчінгу"
-url: "https://elektroslav.github.io"
-baseurl: "https://elektroslav.github.io"
-repository: "elektroslav/elektroslav.github.io"
-
+author: "Elektroslav"
 theme: minima
+
+navigation:
+  - title: "Головна"
+    url: "/uk/"
+  - title: "Home"
+    url: "/en/"
+  - title: "Про мене"
+    url: "/en/about/"
+  - title: "Проекти"
+    url: "/en/projects/"
+  - title: "Контакти"
+    url: "/en/contact/"
+
+minima:
+  skin: auto
+  social_links: []
+  include_css: assets/css/custom.css
 
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-  input: GFM
-  syntax_highlighter: rouge
-mathjax:
-  enable: true
-
-locale: "en" # базова мова
-
-# Navigation меню
-collections:
-  pages:
-    output: true
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
-      toc: true
